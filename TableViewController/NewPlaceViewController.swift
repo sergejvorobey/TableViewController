@@ -63,7 +63,7 @@ class NewPlaceViewController: UITableViewController {
             view.endEditing(true)
         }
     }
-    
+
     func savePlace() {
         
         var image: UIImage?

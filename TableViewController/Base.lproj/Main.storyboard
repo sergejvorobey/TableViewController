@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BIy-u4-uIh">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -50,13 +50,13 @@
                                                     <rect key="frame" x="16" y="8" width="382" height="62"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JW0-Z5-v07">
-                                                            <rect key="frame" x="0.0" y="0.0" width="382" height="28.5"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="382" height="28.666666666666668"/>
                                                             <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" placeholder="Place Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bAA-mg-M1W">
-                                                            <rect key="frame" x="0.0" y="36.5" width="382" height="25.5"/>
+                                                            <rect key="frame" x="0.0" y="36.666666666666664" width="382" height="25.333333333333336"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done"/>
                                                             <connections>
@@ -85,13 +85,13 @@
                                                     <rect key="frame" x="16" y="8" width="382" height="62"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x39-ak-dTq">
-                                                            <rect key="frame" x="0.0" y="0.0" width="382" height="28.5"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="382" height="28.666666666666668"/>
                                                             <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" placeholder="Place Location" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iEy-lT-uYD">
-                                                            <rect key="frame" x="0.0" y="36.5" width="382" height="25.5"/>
+                                                            <rect key="frame" x="0.0" y="36.666666666666664" width="382" height="25.333333333333336"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done"/>
                                                             <connections>
@@ -120,13 +120,13 @@
                                                     <rect key="frame" x="16" y="8" width="382" height="62"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OJL-ZX-Rvn">
-                                                            <rect key="frame" x="0.0" y="0.0" width="382" height="28.5"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="382" height="28.666666666666668"/>
                                                             <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" placeholder="Place Type" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Maw-mt-jlZ">
-                                                            <rect key="frame" x="0.0" y="36.5" width="382" height="25.5"/>
+                                                            <rect key="frame" x="0.0" y="36.666666666666664" width="382" height="25.333333333333336"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done"/>
                                                             <connections>
@@ -186,7 +186,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="85" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="1LD-tJ-vgM">
-                                <rect key="frame" x="0.0" y="118" width="414" height="778"/>
+                                <rect key="frame" x="0.0" y="174" width="414" height="722"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
@@ -208,19 +208,19 @@
                                                     <rect key="frame" x="96" y="8" width="302" height="69"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y8S-Gw-rhb">
-                                                            <rect key="frame" x="0.0" y="0.0" width="302" height="24"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="302" height="24.333333333333332"/>
                                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ni2-kB-Jur">
-                                                            <rect key="frame" x="0.0" y="26" width="302" height="21.5"/>
+                                                            <rect key="frame" x="0.0" y="26.333333333333336" width="302" height="21.333333333333336"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="epl-y3-9iV">
-                                                            <rect key="frame" x="0.0" y="49.5" width="302" height="19.5"/>
+                                                            <rect key="frame" x="0.0" y="49.666666666666664" width="302" height="19.333333333333336"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -259,18 +259,33 @@
                                     <segment title="Name"/>
                                 </segments>
                                 <color key="selectedSegmentTintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="sortSelection:" destination="8ws-Aq-dgZ" eventType="valueChanged" id="d4t-Rs-hNL"/>
+                                </connections>
                             </segmentedControl>
+                            <searchBar contentMode="redraw" searchBarStyle="minimal" translatesAutoresizingMaskIntoConstraints="NO" id="l5i-Oo-uxj">
+                                <rect key="frame" x="0.0" y="118" width="414" height="56"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="055-J9-1Ok" firstAttribute="trailing" secondItem="tDD-gh-keP" secondAttribute="trailing" id="8dD-9V-VR4"/>
+                            <constraint firstItem="l5i-Oo-uxj" firstAttribute="trailing" secondItem="tDD-gh-keP" secondAttribute="trailing" id="APS-F3-l92"/>
+                            <constraint firstItem="1LD-tJ-vgM" firstAttribute="top" secondItem="l5i-Oo-uxj" secondAttribute="bottom" id="B8v-l6-ZmH"/>
+                            <constraint firstItem="l5i-Oo-uxj" firstAttribute="leading" secondItem="tDD-gh-keP" secondAttribute="leading" id="LtC-Bw-oVz"/>
                             <constraint firstItem="055-J9-1Ok" firstAttribute="leading" secondItem="tDD-gh-keP" secondAttribute="leading" id="amF-vM-AyS"/>
                             <constraint firstItem="055-J9-1Ok" firstAttribute="top" secondItem="tDD-gh-keP" secondAttribute="top" id="jxs-bC-eNT"/>
+                            <constraint firstItem="l5i-Oo-uxj" firstAttribute="top" secondItem="055-J9-1Ok" secondAttribute="bottom" constant="-1" id="vxb-QT-a6l"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="tDD-gh-keP"/>
                     </view>
                     <navigationItem key="navigationItem" title="Rest" id="hby-e0-2Ns">
-                        <barButtonItem key="leftBarButtonItem" title="Item" image="AZ" id="fMq-dz-gTK"/>
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="AZ" id="fMq-dz-gTK">
+                            <connections>
+                                <action selector="reversedSorting:" destination="8ws-Aq-dgZ" id="Sav-Ga-i8q"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="jlS-JB-LOM">
                             <connections>
                                 <segue destination="N9l-Dg-beF" kind="presentation" id="DNS-GP-E3e"/>
@@ -278,6 +293,8 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="reversedBarButton" destination="fMq-dz-gTK" id="vMj-rA-Q1x"/>
+                        <outlet property="segmentedControl" destination="055-J9-1Ok" id="Uwu-os-3jS"/>
                         <outlet property="tableView" destination="1LD-tJ-vgM" id="n06-LD-09g"/>
                     </connections>
                 </viewController>
@@ -324,7 +341,7 @@
     </scenes>
     <resources>
         <image name="AZ" width="25" height="24"/>
-        <image name="Photo" width="195" height="196"/>
+        <image name="Photo" width="194.66667175292969" height="195.66667175292969"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="nXQ-hb-kUV"/>
